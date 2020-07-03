@@ -82,6 +82,13 @@ kafka-console-consumer --bootstrap-server 127.0.0.1:9092 --topic f7 --from-begin
 | 사용자가 항공기를 예약을 취소한다.</br>취소 시, 결제가 취소되며 좌석이 증가한다. | ![예약 cancel](https://user-images.githubusercontent.com/63759253/86439023-af043080-bd42-11ea-9660-ab3bf9d4cbd5.jpg) |
 | 사용자가 항공기를 조회한다. | ![항공편 현황판2](https://user-images.githubusercontent.com/63759253/86439067-c3e0c400-bd42-11ea-8eef-30ed2b3b2443.jpg) |
 
+# 운영
+## CI/CD 설정
+- CodeBuild 기반으로 파이프라인 구성
+![pipeline](https://user-images.githubusercontent.com/63759273/86444155-4e2d2600-bd4b-11ea-97d6-95b1a977f7e0.PNG)
+
+- Git Hook 연결
+![git hook](https://user-images.githubusercontent.com/63759273/86444561-de6b6b00-bd4b-11ea-8c4e-8e700b7201dc.PNG)
 
 ## 무정지 재배포
 ![무정지재배포](https://user-images.githubusercontent.com/63759273/86442676-20df7880-bd49-11ea-9fe3-c84393b14390.PNG)
